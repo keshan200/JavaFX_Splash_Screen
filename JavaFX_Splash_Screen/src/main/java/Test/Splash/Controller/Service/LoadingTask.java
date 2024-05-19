@@ -9,7 +9,7 @@ public class LoadingTask extends Task<Integer> {
         for (double i = 0; i <=100 ; i++) {
             updateProgress(i ,100.00);
 
-            Thread.sleep(80); //Can edit Loading Bar Speed
+            Thread.sleep(80);  //Can edit Loading Bar Speed
 
         }
 
