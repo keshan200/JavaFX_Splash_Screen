@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="430.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.Splash.Controller.Controller.LoadingFormController">
+   <children>
+      <ImageView fitHeight="431.0" fitWidth="768.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/SplashScreenWallpaper.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="135.0" layoutY="28.0" prefHeight="134.0" prefWidth="554.0" text="Welcome to Splash Screen">
+         <font>
+            <Font name="Ebrima Bold" size="43.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.761363665262858" endY="0.7651515223763206" startX="0.7585227272727273" startY="0.06818178928259655">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.04444444552063942" green="0.45851850509643555" blue="1.0" opacity="0.5299999713897705" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.01759999990463257" green="0.2199999988079071" blue="0.20227716863155365" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Rectangle fx:id="ReqBackBar" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="36.0" layoutX="28.0" layoutY="372.0" stroke="BLACK" strokeType="INSIDE" width="713.0" />
+      <AnchorPane fx:id="AncFrontBar" layoutX="28.0" layoutY="372.0" prefHeight="36.0" prefWidth="68.0" style="-fx-background-color: #0466c8; -fx-background-radius: 0;" />
+      <Label layoutX="259.0" layoutY="312.0" prefHeight="46.0" prefWidth="118.0" text="Loading">
+         <font>
+            <Font name="Ebrima Bold" size="28.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.761363665262858" endY="0.7651515223763206" startX="0.7585227272727273" startY="0.06818178928259655">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.04444444552063942" green="0.45851850509643555" blue="1.0" opacity="0.5299999713897705" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.01759999990463257" green="0.2199999988079071" blue="0.20227716863155365" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="LblNumPrecentage" layoutX="397.0" layoutY="312.0" prefHeight="46.0" prefWidth="88.0" text="100">
+         <font>
+            <Font name="Ebrima Bold" size="28.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.761363665262858" endY="0.7651515223763206" startX="0.7585227272727273" startY="0.06818178928259655">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.04444444552063942" green="0.45851850509643555" blue="1.0" opacity="0.5299999713897705" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.01759999990463257" green="0.2199999988079071" blue="0.20227716863155365" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
